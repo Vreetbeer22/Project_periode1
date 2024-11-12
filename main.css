@@ -1,4 +1,4 @@
-* {
+body{
     background-color: #F0F0F7;
 }
 nav{
@@ -45,4 +45,40 @@ a{
     height: 90px;
     width: auto;
     background-color: #FFF;
+}
+.doorzichtige_balk{
+    width: auto;
+    height: 150px;
+    background-color: #F0F0F7;
+}
+.text_meeloopdagen{
+    margin-left: 75px;
+    font-family: "Montserrat", sans-serif;
+}
+.meeloopdagen_stuk{
+    width: 600px;
+    height: 300px;
+    background-color: #fff;
+    margin-left: 75px;
+}
+.meeloopdagen_stuk h3{
+    color: #000;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+.wanneer_meelopen h3{
+    color: #000;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+.doorzichtige_balk2{
+    width: auto;
+    height: 50px;
+    background-color: #F0F0F7;
+}
+.open_dagen{
+    width: 600px;
+    height: 200px;
+    background-color: #FFF;
+    margin-left: 75px;
 }
