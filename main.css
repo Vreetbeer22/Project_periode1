@@ -11,6 +11,16 @@ img {
 h1{
     color: #000;
 }
+h2{
+    font-size: 50px;
+    color: #402E56;
+    margin: auto;
+}
+h3{
+    font-size: 20px;
+    color: #402E56;
+    margin: auto;
+}
 a{
     cursor: pointer;
     text-decoration: none;
@@ -45,6 +55,7 @@ a{
     height: 90px;
     width: auto;
     background-color: #FFF;
+<<<<<<< HEAD
 }
 .doorzichtige_balk{
     width: auto;
@@ -82,3 +93,41 @@ a{
     background-color: #FFF;
     margin-left: 75px;
 }
+=======
+    margin-bottom: 20px;
+}
+.maps_roc{
+    width: 60%;
+    height: auto;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+    border: #402E56;
+    border-width: 5px;
+    border-style: solid;
+}
+.ruimte_tussen_route{
+    height: 20px;
+    width: auto;
+}
+.plattegronden_lijst{
+    display: flex; 
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 30px;
+    gap: 50px;
+    height: auto;
+    width: auto;
+    padding: 30px;
+    background-color: #FFF;
+    border-radius: 15px;
+    border: #402E56;
+    border-style: solid;
+    border-width: 2px;
+}
+.plattegronden{
+    height: 440px;
+    width: 530px;
+}
+>>>>>>> ed976178065e67c2ba75278e207710092198fae3
