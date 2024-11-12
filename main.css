@@ -1,0 +1,48 @@
+* {
+    background-color: #F0F0F7;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+img {
+    background-color: transparent;
+}
+h1{
+    color: #000;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.naast{
+    display: flex;
+    flex-direction: row;
+}
+.onder{
+    display: flex;
+    flex-direction: column;
+}
+.header_boven{
+    height: 60px;
+    width: auto;
+}
+.ruimte_tussen_header{
+    height: auto;
+    width: 600px;
+}
+.logo_roc{
+    height: 93.5px;
+    width: 128px;
+    position: relative;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.header_ruimte_tussen{
+    gap: 20px;
+}
+.header_onder{
+    height: 90px;
+    width: auto;
+    background-color: #FFF;
+}
