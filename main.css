@@ -1,4 +1,4 @@
-* {
+body{
     background-color: #F0F0F7;
 }
 nav{
@@ -10,6 +10,16 @@ img {
 }
 h1{
     color: #000;
+}
+h2{
+    font-size: 50px;
+    color: #402E56;
+    margin: auto;
+}
+h3{
+    font-size: 20px;
+    color: #402E56;
+    margin: auto;
 }
 a{
     cursor: pointer;
@@ -45,4 +55,39 @@ a{
     height: 90px;
     width: auto;
     background-color: #FFF;
+    margin-bottom: 20px;
+}
+.maps_roc{
+    width: 60%;
+    height: auto;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+    border: #402E56;
+    border-width: 5px;
+    border-style: solid;
+}
+.ruimte_tussen_route{
+    height: 20px;
+    width: auto;
+}
+.plattegronden_lijst{
+    display: flex; 
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 30px;
+    gap: 50px;
+    height: auto;
+    width: auto;
+    padding: 30px;
+    background-color: #FFF;
+    border-radius: 15px;
+    border: #402E56;
+    border-style: solid;
+    border-width: 2px;
+}
+.plattegronden{
+    height: 440px;
+    width: 530px;
 }
