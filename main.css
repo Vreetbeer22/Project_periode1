@@ -151,9 +151,30 @@ font-weight: bold;
     margin-left: 75px;
     font-family: "Montserrat", sans-serif;
 }
+.waar_opendagen{
+    margin-left: 10px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 70px;
+}
+.tekst_meelopen{
+    margin-left: 10px;
+    font-family: "Montserrat", sans-serif;
+}
 .meeloopdagen_stuk{
     width: 600px;
-    height: 300px;
+    height: 450px;
+    background-color: #fff;
+    margin-left: 75px;
+}
+.opendag_stuk{
+    width: 600px;
+    height: 600px;
+    background-color: #fff;
+    margin-left: 75px;
+}
+.vakantie_stuk{
+    width: 600px;
+    height: 325px;
     background-color: #fff;
     margin-left: 75px;
 }
@@ -166,6 +187,7 @@ font-weight: bold;
     color: #000;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
+
 }
 .doorzichtige_balk2{
     width: auto;
@@ -177,5 +199,41 @@ font-weight: bold;
     height: 200px;
     background-color: #FFF;
     margin-left: 75px;
+    margin-top: 30px;
+}
+.maps_roc{
+    width: 60%;
+    height: auto;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+    border: #402E56;
+    border-width: 5px;
+    border-style: solid;
+}
+.ruimte_tussen_route{
+    height: 20px;
+    width: auto;
+}
+.plattegronden_lijst{
+    display: flex; 
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 30px;
+    gap: 50px;
+    height: auto;
+    width: auto;
+    padding: 30px;
+    background-color: #FFF;
+    border-radius: 15px;
+    border: #402E56;
+    border-style: solid;
+    border-width: 2px;
+}
+.plattegronden{
+    height: 440px;
+    width: 530px;
+
 }
 
