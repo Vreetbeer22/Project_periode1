@@ -58,38 +58,93 @@ a{
 }
 
 .eisen-laptop {
-    margin-top: 200px;
-    margin-left: 50px;
+    margin-top: 5px;
+    margin-left: 75px;
     font-family: monospace;
+    width: 650px;
+    height: 250px;
+    background-color: #FFFF;
 }
-
+    
+.text_eisen {
+    margin-left: 75px;
+    font-family: "Montserrat", sans-seri,
+}
 .texteisen {
 font-size: 22px;
 font-weight: bold;
 }
 
-.textcpu {
+.textlaptop {
     font-size: 19px;
     font-weight: 500;
 }
 
-.textgeheugen {
+
+.textoptimaal {
+    font-size: 22px; 
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.optimaleeisen {
     font-size: 19px;
     font-weight: 500;
 }
 
-.textdisk {
-    font-size: 19px;
-    font-weight: 500;
+.containerkennis {
+    margin-top: 5px;
+    margin-left: 75px;
+    width: 750px;
+    height: 300px;
+    background-color: #FFFF;
+    font-family: monospace;
 }
 
-.textoud {
-    font-size: 19px;
-    font-weight: 500;
+
+.kennisopleiding {
+    font-size: 22px; 
+    font-weight: bold;
+    margin-top: 10px;
 }
+
+.wiskundetext {
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.technischetext {
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.creatieftext {
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .doorzichtige_balk{
     width: auto;
-    height: 150px;
+    height: 200px;
     background-color: #F0F0F7;
 }
 .text_meeloopdagen{
@@ -123,3 +178,4 @@ font-weight: bold;
     background-color: #FFF;
     margin-left: 75px;
 }
+
