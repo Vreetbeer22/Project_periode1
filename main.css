@@ -56,22 +56,6 @@ a{
     width: auto;
     background-color: #FFF;
 }
-.laptop_eisen_stuk{
-    margin-left: 75px;
-    width: 750px;
-    height: 400px;
-    background-color: #FFFF;
-    border-radius: 32px;
-    border: solid #402E56;
-}
-.container_kennis {
-    margin-left: 75px;
-    width: 750px;
-    height: 430px;
-    background-color: #FFFF;
-    border-radius: 32px;
-    border: solid #402E56;
-}
 .doorzichtige_balk{
     width: auto;
     height: 200px;
@@ -115,6 +99,15 @@ a{
     height: auto;
     background-color: #fff;
     margin-left: 75px;
+    border-radius: 32px;
+    border: solid #402E56;
+    padding: 15px;
+}
+.meeloopdagen_stuk_vakantie{
+    width: 600px;
+    height: auto;
+    background-color: #fff;
+    margin-left: 650px;
     border-radius: 32px;
     border: solid #402E56;
     padding: 15px;
@@ -164,3 +157,15 @@ a{
     width: 530px;
 
 }
+.container_vakantie{
+    justify-items: center;
+    background-color: #F0F0F7;
+}
+
+.container_vakantie2{
+    width: auto;
+    height: auto;
+    background-color: #F0F0F7;
+}
+
+
