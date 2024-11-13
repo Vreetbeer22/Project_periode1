@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: #F0F0F7;
 }
@@ -15,6 +19,7 @@ h2{
     font-size: 50px;
     color: #402E56;
     margin: auto;
+    text-align: center;
 }
 h3{
     font-size: 20px;
@@ -22,8 +27,18 @@ h3{
     margin: auto;
 }
 a{
+    text-decoration: none;
     cursor: pointer;
     text-decoration: none;
+}
+button {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+  button:hover {
+    background-color: auto;
+    transition: all 0.3;
 }
 .naast{
     display: flex;
@@ -32,6 +47,9 @@ a{
 .onder{
     display: flex;
     flex-direction: column;
+}
+.tekst_midden{
+    text-align: center;
 }
 .header_boven{
     height: 60px;
@@ -53,9 +71,14 @@ a{
 }
 .header_onder{
     height: 90px;
-    width: auto;
+    width: 100%;
     background-color: #FFF;
     margin-bottom: 20px;
+    
+}
+.tekst_header_onder{
+    gap: 20px;
+    justify-content: center;
 }
 .maps_roc{
     width: 60%;
@@ -96,4 +119,125 @@ a{
 .plattegronden{
     height: 440px;
     width: 530px;
+}
+.feedback_formulier{
+    width: 1150px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    background-color: #FFF;
+    border-radius: 15px;
+    border: #402E56;
+    border-style: solid;
+    border-width: 2px;
+    padding: 30px;
+    margin-top: 30px;
+}
+.ruimte_tussen_formulier{
+    height: 20px;
+    width: auto;
+}
+.send_name{
+    width: 53.72%;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #F0F0F7;
+    color: #3d4c5b;
+    padding-left: 20px; padding-right: 20px; 
+}
+.send_name:focus {
+    outline: none;
+  }
+.send_feedback{
+    width: 53.72%;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #F0F0F7;
+    color: #3d4c5b;
+    padding: 20px;
+}
+.send_feedback:focus {
+    outline: none;
+  }
+.send_send_box{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.send_send{
+    height: 50px;
+    width: 18.58%;
+    background-color: #F0F0F7;
+    border-radius: 15px;
+    margin-right: 20px;
+    text-align: center;
+    align-content: center;
+    font-size: 17px;
+    cursor: pointer;
+}
+.send_border {
+    border: #402E56;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+}
+textarea {
+    resize: none;
+}
+.footer_balk{
+    height: 140px;
+    width: 100%;
+    background-color: #98D3EA;
+    justify-content: space-between;
+    align-items: center;
+}
+.ruimte_footer{
+    height: auto;
+    width: 100px;
+    padding: 15px;
+}
+.plaatje_footer{
+    background-color: transparent;
+    height: 25px;
+    width: 25px;
+}
+.plaatje_footer_groter{
+    background-color: transparent;
+    height: 40px;
+    width: 40px;
+    margin-top: -10px;
+}
+.terug_naar_boven{
+    text-align: center;
+}
+.bel_ons{
+    text-align: center;
+}
+.geef_ons_feedback{
+    text-align: center;
+}
+.vindt_informatie{
+    text-align: center;
+}
+.footer_balk_social{
+    height: 60px;
+    width: 100%;
+    background-color: #F0F0F7;
+    gap: 20px;
+}
+.logo_omtrek{
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border-color: #402E56;
+    border-width: 3px;
+    border-style: solid;
+}
+.social_logos{
+    height: 25px;
+    width: 25px;
 }
