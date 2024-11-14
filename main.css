@@ -261,8 +261,251 @@ textarea {
 }
 .roc_nijmegen{
     margin-left: 60px;
-    margin-top: 40px;
 }
+.doorzichtige_balk{
+    width: auto;
+    height: 200px;
+    background-color: #F0F0F7;
+}
+.text_meeloopdagen{
+    margin-left: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+.text_meeloopdagen1{
+    margin-left: 100px;
+    font-family: "Montserrat", sans-serif;
+}
+.waar_opendagen{
+    margin-left: 10px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 70px;
+}
+.tekst_meelopen{
+    margin-left: 10px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+}
+.tekst_meelopen2{
+    margin-left: 17px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+}
+.tekst_meelopen1{
+    margin-left: 17px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+}
+.tekst_normen{
+    margin-left: 10px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 50px;
+}
+.meeloopdagen_stuk{
+    width: 600px;
+    height: auto;
+    background-color: #fff;
+    margin-left: 75px;
+    border-radius: 32px;
+    border: solid #402E56;
+    padding: 15px;
+}
+.meeloopdagen_stuk_vakantie{
+    width: 600px;
+    height: auto;
+    background-color: #fff;
+    margin-left: 200px;
+    border-radius: 32px;
+    border: solid #402E56;
+    padding: 15px;
+}
+.meeloopdagen_stuk_vakantie1{
+    width: 600px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 32px;
+    border: solid #402E56;
+    padding: 15px;
+    margin-left: 75px;
+}
+.meeloopdagen_stuk_vakantie2{
+    width: 600px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 32px;
+    border: solid #402E56;
+    padding: 15px;
+    margin-left: 80px;
+}
+.meeloopdagen_stuk h3{
+    color: #000;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+.wanneer_meelopen h3{
+    color: #000;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+.maps_roc{
+    width: 60%;
+    height: auto;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+    border: #402E56;
+    border-width: 5px;
+    border-style: solid;
+}
+.ruimte_tussen_route{
+    height: 20px;
+    width: auto;
+}
+.plattegronden_lijst{
+    display: flex; 
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 30px;
+    gap: 50px;
+    height: auto;
+    width: auto;
+    padding: 30px;
+    background-color: #FFF;
+    border-radius: 15px;
+    border: #402E56;
+    border-style: solid;
+    border-width: 2px;
+}
+.plattegronden{
+    height: 440px;
+    width: 530px;
+}
+.container_vakantie{
+    justify-items: center;
+}
+.meeloopdagen_plaatje{
+    width: 720px;
+    height: 330px;
+    margin-top: 75px;
+    border-radius: 32px;
+    border: solid #402E56;
+    margin-left: 50px;
+}
+.laptop_plaatje{
+    width: 490px;
+    height: 490px;
+    border-radius: 32px;
+    border: solid #402E56;
+    margin-left: 50px;
+}
+.stage_plaatje{
+    width: 650px;
+    height: 280px;
+    margin-left: 70px;
+    margin-top: 50px;
+    border-radius: 32px;
+    border: solid #402E56;
+}
+.ontzichtbare_doos{
+    width: 545px;
+    height: 50px;
+    background-color: #F0F0F7;
+}
+.ontzichtbare_doos1{
+    width: 700px;
+    height: 50px;
+    background-color: #F0F0F7;
+}
+.codetalen_plaatje{
+    width: 650px;
+    height: 280px;
+    margin-left: 70px;
+    margin-top: 80px;
+    border-radius: 32px;
+    border: solid #402E56;
+}
+.contact_plaatje{
+    width: 500px;
+    height: 330px;
+    border-radius: 32px;
+    border: solid #402E56;
+    margin-left: 130px;
+}
+.meeloopdagen_stuk2{
+    width: 600px;
+    height: auto;
+    background-color: #fff;
+    margin-left: 155px;
+    border-radius: 32px;
+    border: solid #402E56;
+    padding: 15px;
+}
+.footer_balk {
+    height: 140px;
+    width: 100%;
+    background-color: #98d3ea;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .ruimte_footer {
+    height: auto;
+    width: 100px;
+    padding: 15px;
+  }
+  .plaatje_footer {
+    background-color: transparent;
+    height: 25px;
+    width: 25px;
+  }
+  .plaatje_footer_groter {
+    background-color: transparent;
+    height: 40px;
+    width: 40px;
+    margin-top: -10px;
+  }
+  .terug_naar_boven {
+    text-align: center;
+  }
+  .bel_ons {
+    text-align: center;
+  }
+  .geef_ons_feedback {
+    text-align: center;
+  }
+  .vindt_informatie {
+    text-align: center;
+  }
+  .footer_balk_social {
+    height: 60px;
+    width: 100%;
+    background-color: #f0f0f7;
+    gap: 20px;
+    align-items: center;
+    margin-left: 20px;
+  }
+  .logo_omtrek {
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border-color: #402e56;
+    border-width: 3px;
+    border-style: solid;
+  }
+  .social_logos {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
+  .social_logos_korter {
+    height: 25px;
+    width: 30px;
+    border-radius: 50%;
+  }
+  .roc_nijmegen{
+      margin-left: 40px;
+      margin-top: 20px;
+  }
 .ruimte_tussen_body{
   height: 100px;
   width: auto;
@@ -324,3 +567,4 @@ textarea {
   margin-top: 100px;
   margin-left: 50px;
 }
+
