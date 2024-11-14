@@ -30,6 +30,10 @@ h4{
     font-size: 60px;
     color: #402e56;
 }
+h5{
+  font-size: 40px;
+  color: #402e56;
+}
 a {
   text-decoration: none;
   cursor: pointer;
@@ -256,6 +260,67 @@ textarea {
   border-radius: 50%;
 }
 .roc_nijmegen{
-    margin-left: 40px;
-    margin-top: 20px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.ruimte_tussen_body{
+  height: 100px;
+  width: auto;
+}
+.route_roc_home{
+  margin: auto;
+  margin-bottom: 75px;
+}
+.route_roc_home_foto{
+  margin: auto;
+  height: 192px;
+  width: 480px;
+  border-radius: 100px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #402e56;
+}
+.home_links{
+  margin-left: 30px;
+}
+.opschuiven_vakken{
+  margin-left: 30px;
+}
+.ruimte_vakken_extra{
+  height: auto;
+  width: 30px;
+}
+.ruimte_vakken_onder{
+  height: 50px;
+  width: auto;
+}
+.ruimte_home_tussen{
+  height: 20px;
+  width: auto;
+}
+.informatie_home{
+  margin-top: 30px;
+  height: 150px;
+  width: 150px;
+}
+.home_ruimte_tussen_kop{
+  height: auto;
+  width: 400px;
+}
+.home_opzij{
+  margin-left: 30px;
+}
+.home_vragen{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.ruimte_vragen_naast{
+  height: auto;
+  width: 700px;
+}
+.foto_vakken_ict{
+  height: 365px;
+  width: 512px;
+  margin-top: 100px;
+  margin-left: 50px;
 }
