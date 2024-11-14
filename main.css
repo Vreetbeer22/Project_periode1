@@ -1,3 +1,4 @@
+
 body{
     background-color: #F0F0F7;
 }
@@ -107,11 +108,30 @@ a{
     width: 600px;
     height: auto;
     background-color: #fff;
-    margin-left: 650px;
+    margin-left: 200px;
     border-radius: 32px;
     border: solid #402E56;
     padding: 15px;
 }
+.meeloopdagen_stuk_vakantie1{
+    width: 600px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 32px;
+    border: solid #402E56;
+    padding: 15px;
+    margin-left: 75px;
+}
+.meeloopdagen_stuk_vakantie2{
+    width: 600px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 32px;
+    border: solid #402E56;
+    padding: 15px;
+    margin-left: 80px;
+}
+
 .meeloopdagen_stuk h3{
     color: #000;
     font-weight: bold;
@@ -159,20 +179,65 @@ a{
 }
 .container_vakantie{
     justify-items: center;
-    background-color: #F0F0F7;
+}
+.meeloopdagen_plaatje{
+    width: 720px;
+    height: 330px;
+    margin-top: 75px;
+    border-radius: 32px;
+    border: solid #402E56;
+    margin-left: 50px;
 }
 
-.container_vakantie2{
-    width: auto;
+.laptop_plaatje{
+    width: 490px;
+    height: 490px;
+    border-radius: 32px;
+    border: solid #402E56;
+    margin-left: 50px;
+}
+.stage_plaatje{
+    width: 650px;
+    height: 280px;
+    margin-left: 70px;
+    margin-top: 50px;
+    border-radius: 32px;
+    border: solid #402E56;
+}
+.ontzichtbare_doos{
+    width: 545px;
+    height: 50px;
+    background-color: #F0F0F7;
+}
+.ontzichtbare_doos1{
+    width: 700px;
+    height: 50px;
+    background-color: #F0F0F7;
+}
+.codetalen_plaatje{
+    width: 650px;
+    height: 280px;
+    margin-left: 70px;
+    margin-top: 80px;
+    border-radius: 32px;
+    border: solid #402E56;
+}
+.contact_plaatje{
+    width: 500px;
+    height: 330px;
+    border-radius: 32px;
+    border: solid #402E56;
+    margin-left: 130px;
+}
+.meeloopdagen_stuk2{
+    width: 600px;
     height: auto;
-    background-color: #F0F0F7;
+    background-color: #fff;
+    margin-left: 155px;
+    border-radius: 32px;
+    border: solid #402E56;
+    padding: 15px;
 }
-
-
-
-
-
-
 
 .footer_balk {
     height: 140px;
